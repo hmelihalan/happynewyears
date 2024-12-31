@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mutlu Yıllar</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="container">
+  <h1 id="welcome-message" class="fade-in">Yeni yılda yanınızda bulunumasam da hepinizin yeni yılı kutlu olsun sizi çok seviyorum 😊❤️🎉</h1>
+  <div id="countdown-container" class="hidden fade-out">
+    <h1>🎉 Yeni Yıl Geri Sayımı 🎉</h1>
+    <div id="countdown">
+      <div class="time-box">
+        <span id="days">00</span>
+        <p>Gün</p>
+      </div>
+      <div class="time-box">
+        <span id="hours">00</span>
+        <p>Saat</p>
+      </div>
+      <div class="time-box">
+        <span id="minutes">00</span>
+        <p>Dakika</p>
+      </div>
+      <div class="time-box">
+        <span id="seconds">00</span>
+        <p>Saniye</p>
+      </div>
+    </div>
+    <h2 id="message" class="hidden">🎆 Mutlu Yıllar! 🎆</h2>
+
+    <!-- Embed Local Video with Autoplay and Muted -->
+    <div class="video-container">
+      <video id="myVideo" width="560" height="315" controls autoplay muted>
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+</div>
+<script src="js/script.js"></script>
